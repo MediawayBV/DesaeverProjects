@@ -18,9 +18,9 @@
     "label": "Taal"
   },
   "hero": {
-    "eyebrow": "Renovatie · Kluswerken · Onderhoud",
+    "eyebrow": "Kluswerken · Onderhoud · Renovatie",
     "title": "Desaever Projects",
-    "lead": "Betrouwbaar vakmanschap voor renovatie en onderhoud van woningen en kleine bedrijven in België.",
+    "lead": "Van hogedrukreiniging en dakgootonderhoud tot kleine renovaties — betrouwbaar vakmanschap voor woningen en kleine bedrijven in België.",
     "cta_primary": "Offerte aanvragen",
     "cta_secondary": "Onze diensten"
   },
@@ -33,27 +33,35 @@
   "services": {
     "eyebrow": "Diensten",
     "title": "Wat we voor je doen",
-    "lead": "Van kleine herstellingen tot volledige renovaties — één aanspreekpunt voor je woning of zaak.",
+    "lead": "We doen vooral kleinere klussen en onderhoud. Eén aanspreekpunt voor je woning of zaak — van een terras opfrissen tot een volledige badkamer.",
     "items": {
+      "pressure": {
+        "title": "Hogedrukreiniging",
+        "desc": "Terrassen, opritten, gevels en tuinpaden — opnieuw fris en proper."
+      },
+      "gutter": {
+        "title": "Dakgootreiniging",
+        "desc": "Dakgoten leegmaken en doorspoelen, voor je het regenseizoen in gaat."
+      },
       "handy": {
         "title": "Algemene kluswerken",
-        "desc": "Alles wat een vakman doet, van montage tot afwerking."
+        "desc": "Montage, plaatsen, ophangen, afwerken — wat je ook nodig hebt."
       },
-      "renovation": {
-        "title": "Renovaties",
-        "desc": "Volledige of gedeeltelijke renovatie, helder begeleid van A tot Z."
-      },
-      "bathroom": {
-        "title": "Badkamerrenovatie",
-        "desc": "Sanitair, tegelwerk en afwerking — een nieuwe badkamer zonder zorgen."
-      },
-      "kitchen": {
-        "title": "Keukenrenovatie",
-        "desc": "Plaatsing, aanpassingen en alle verbindingen, vakkundig uitgevoerd."
+      "paint": {
+        "title": "Schilder- & afwerkingswerken",
+        "desc": "Binnen of buiten, kleine of grote oppervlakken — netjes afgewerkt."
       },
       "maintenance": {
         "title": "Herstellingen & onderhoud",
         "desc": "Snelle interventies en periodiek onderhoud voor woning en bedrijf."
+      },
+      "outdoor": {
+        "title": "Tuin- & buitenwerken",
+        "desc": "Klein tuinonderhoud, snoeiwerk en kleine aanpassingen rond het huis."
+      },
+      "renovation": {
+        "title": "Renovaties",
+        "desc": "Badkamer, keuken of woonruimte — gedeeltelijk of volledig, helder begeleid."
       },
       "build": {
         "title": "Kleine bouwwerken",
@@ -129,11 +137,13 @@
       "type": "Type werk",
       "type_placeholder": "Kies een optie",
       "type_options": {
+        "pressure": "Hogedrukreiniging",
+        "gutter": "Dakgootreiniging",
         "handy": "Algemene kluswerken",
-        "renovation": "Renovatie",
-        "bathroom": "Badkamerrenovatie",
-        "kitchen": "Keukenrenovatie",
+        "paint": "Schilder- / afwerkingswerken",
         "maintenance": "Herstelling / onderhoud",
+        "outdoor": "Tuin- / buitenwerken",
+        "renovation": "Renovatie",
         "build": "Klein bouwwerk",
         "other": "Andere"
       },

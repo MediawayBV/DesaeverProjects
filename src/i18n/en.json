@@ -18,9 +18,9 @@
     "label": "Language"
   },
   "hero": {
-    "eyebrow": "Renovation · Handywork · Maintenance",
+    "eyebrow": "Handywork · Maintenance · Renovation",
     "title": "Desaever Projects",
-    "lead": "Reliable craftsmanship for renovation and maintenance of homes and small businesses in Belgium.",
+    "lead": "From pressure washing and gutter cleaning to small renovations — reliable craftsmanship for homes and small businesses in Belgium.",
     "cta_primary": "Request a quote",
     "cta_secondary": "Our services"
   },
@@ -33,27 +33,35 @@
   "services": {
     "eyebrow": "Services",
     "title": "What we do for you",
-    "lead": "From small repairs to full renovations — one point of contact for your home or business.",
+    "lead": "We mostly handle smaller jobs and maintenance. One point of contact for your home or business — from refreshing a terrace to a full bathroom.",
     "items": {
+      "pressure": {
+        "title": "Pressure washing",
+        "desc": "Terraces, driveways, facades and garden paths — fresh and clean again."
+      },
+      "gutter": {
+        "title": "Gutter cleaning",
+        "desc": "Clearing and flushing gutters before the rainy season hits."
+      },
       "handy": {
         "title": "General handywork",
-        "desc": "Everything a tradesperson does, from assembly to finishing."
+        "desc": "Mounting, installing, hanging, finishing — whatever you need."
       },
-      "renovation": {
-        "title": "Renovations",
-        "desc": "Full or partial renovation, clearly guided from A to Z."
-      },
-      "bathroom": {
-        "title": "Bathroom renovation",
-        "desc": "Plumbing, tiling and finishing — a new bathroom without the hassle."
-      },
-      "kitchen": {
-        "title": "Kitchen renovation",
-        "desc": "Installation, adjustments and all connections, expertly executed."
+      "paint": {
+        "title": "Painting & finishing",
+        "desc": "Indoor or outdoor, small or large surfaces — neatly finished."
       },
       "maintenance": {
         "title": "Repairs & maintenance",
         "desc": "Quick interventions and routine maintenance for home and business."
+      },
+      "outdoor": {
+        "title": "Garden & outdoor work",
+        "desc": "Light garden upkeep, pruning and small adjustments around the house."
+      },
+      "renovation": {
+        "title": "Renovations",
+        "desc": "Bathroom, kitchen or living space — partial or full, clearly guided."
       },
       "build": {
         "title": "Small construction",
@@ -129,11 +137,13 @@
       "type": "Type of work",
       "type_placeholder": "Choose an option",
       "type_options": {
+        "pressure": "Pressure washing",
+        "gutter": "Gutter cleaning",
         "handy": "General handywork",
-        "renovation": "Renovation",
-        "bathroom": "Bathroom renovation",
-        "kitchen": "Kitchen renovation",
+        "paint": "Painting / finishing",
         "maintenance": "Repair / maintenance",
+        "outdoor": "Garden / outdoor work",
+        "renovation": "Renovation",
         "build": "Small construction",
         "other": "Other"
       },

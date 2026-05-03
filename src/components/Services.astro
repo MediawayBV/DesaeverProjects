@@ -9,11 +9,13 @@ const { locale } = Astro.props;
 const t = getDict(locale);
 
 const cards = [
+  { icon: "lucide:droplets", ...t.services.items.pressure },
+  { icon: "lucide:cloud-rain", ...t.services.items.gutter },
   { icon: "lucide:wrench", ...t.services.items.handy },
-  { icon: "lucide:hard-hat", ...t.services.items.renovation },
-  { icon: "lucide:bath", ...t.services.items.bathroom },
-  { icon: "lucide:chef-hat", ...t.services.items.kitchen },
+  { icon: "lucide:paintbrush", ...t.services.items.paint },
   { icon: "lucide:drill", ...t.services.items.maintenance },
+  { icon: "lucide:trees", ...t.services.items.outdoor },
+  { icon: "lucide:hard-hat", ...t.services.items.renovation },
   { icon: "lucide:hammer", ...t.services.items.build },
 ];
 ---

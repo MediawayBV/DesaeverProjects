@@ -45,11 +45,13 @@ const types = f.type_options;
       <label for="cf-type">{f.type}</label>
       <select id="cf-type" name="type">
         <option value="">{f.type_placeholder}</option>
+        <option value="pressure">{types.pressure}</option>
+        <option value="gutter">{types.gutter}</option>
         <option value="handy">{types.handy}</option>
-        <option value="renovation">{types.renovation}</option>
-        <option value="bathroom">{types.bathroom}</option>
-        <option value="kitchen">{types.kitchen}</option>
+        <option value="paint">{types.paint}</option>
         <option value="maintenance">{types.maintenance}</option>
+        <option value="outdoor">{types.outdoor}</option>
+        <option value="renovation">{types.renovation}</option>
         <option value="build">{types.build}</option>
         <option value="other">{types.other}</option>
       </select>
