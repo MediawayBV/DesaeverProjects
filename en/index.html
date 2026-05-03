@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="color-scheme" content="light" />
 
-    <title>Desaever Projects · Handywork, Maintenance & Renovation</title>
+    <title>Desaever Projects · Handywork, Maintenance & Renovation in Belgium</title>
     <meta
       name="description"
-      content="Belgian craftsmanship for pressure washing, gutter cleaning, maintenance, handywork and small renovations of homes and small businesses. Request a no-obligation quote."
+      content="Belgian craftsmanship for pressure washing, gutter cleaning, electrical work, handywork, maintenance and small renovations of homes and small businesses."
     />
 
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
@@ -23,7 +23,7 @@
     <meta property="og:title" content="Desaever Projects" />
     <meta
       property="og:description"
-      content="Pressure washing, gutter cleaning, handywork and renovation in Belgium."
+      content="Pressure washing, gutter cleaning, electrical work and renovation in Belgium."
     />
     <meta property="og:locale" content="en" />
     <meta property="og:image" content="../img/og-image.jpg" />
@@ -32,7 +32,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../assets/css/styles.css" />
@@ -42,7 +42,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Desaever Projects",
-        "description": "Belgian craftsmanship for pressure washing, gutter cleaning, handywork and renovation.",
+        "description": "Belgian craftsmanship for pressure washing, gutter cleaning, electrical work, handywork and renovation.",
         "telephone": "+32 469 21 95 74",
         "email": "tibo@dgroup.be",
         "address": { "@type": "PostalAddress", "addressCountry": "BE" },
@@ -52,6 +52,19 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__group">
+          <span><i data-lucide="phone" class="icon"></i><a href="tel:+32469219574">+32 469 21 95 74</a></span>
+          <span><i data-lucide="mail" class="icon"></i><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></span>
+        </div>
+        <div class="topbar__group">
+          <span><i data-lucide="clock" class="icon"></i>Reply within 24–48h</span>
+          <span><i data-lucide="map-pin" class="icon"></i>Active across Belgium</span>
+        </div>
+      </div>
+    </div>
 
     <header class="site-header" data-header>
       <div class="container site-header__inner">
@@ -67,36 +80,21 @@
         <nav class="site-header__nav" aria-label="Primary">
           <ul>
             <li><a href="#services">Services</a></li>
+            <li><a href="#why">Why Desaever</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#process">How we work</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
         <div class="site-header__actions">
-          <a
-            class="lang-toggle"
-            href="../"
-            hreflang="nl"
-            lang="nl"
-            aria-label="Language: Nederlands"
-            title="Nederlands"
-          >
+          <a class="lang-toggle" href="../" hreflang="nl" lang="nl" aria-label="Language: Nederlands" title="Nederlands">
             <span class="lang-toggle__current">EN</span>
             <span class="lang-toggle__sep" aria-hidden="true">/</span>
             <span>NL</span>
           </a>
-          <a href="#contact" class="btn btn-primary btn-sm site-header__cta"
-            >Request a quote</a
-          >
-          <button
-            type="button"
-            class="site-header__toggle"
-            aria-expanded="false"
-            aria-controls="mobile-nav"
-            data-menu-toggle
-          >
+          <a href="#contact" class="btn btn-primary btn-sm site-header__cta">Request a quote</a>
+          <button type="button" class="site-header__toggle" aria-expanded="false" aria-controls="mobile-nav" data-menu-toggle>
             <span class="sr-only">Open menu</span>
             <i data-lucide="menu" class="icon" aria-hidden="true"></i>
           </button>
@@ -106,15 +104,11 @@
       <div class="site-header__mobile" id="mobile-nav" data-mobile-nav hidden>
         <ul>
           <li><a href="#services" data-mobile-link>Services</a></li>
+          <li><a href="#why" data-mobile-link>Why Desaever</a></li>
           <li><a href="#projects" data-mobile-link>Projects</a></li>
           <li><a href="#process" data-mobile-link>How we work</a></li>
-          <li><a href="#about" data-mobile-link>About</a></li>
           <li><a href="#contact" data-mobile-link>Contact</a></li>
-          <li>
-            <a href="#contact" class="btn btn-primary" data-mobile-link
-              >Request a quote</a
-            >
-          </li>
+          <li><a href="#contact" class="btn btn-primary" data-mobile-link>Request a quote</a></li>
         </ul>
       </div>
     </header>
@@ -122,22 +116,54 @@
     <main id="main">
       <!-- HERO -->
       <section class="hero" aria-labelledby="hero-title">
-        <div
-          class="hero__bg"
-          style="background-image: url('../img/hero.svg')"
-          aria-hidden="true"
-        ></div>
+        <div class="hero__bg" style="background-image: url('../img/hero.svg')" aria-hidden="true"></div>
         <div class="hero__overlay" aria-hidden="true"></div>
         <div class="container hero__inner">
-          <p class="hero__eyebrow">Handywork · Maintenance · Renovation</p>
-          <h1 id="hero-title" class="hero__title">Desaever Projects</h1>
+          <span class="hero__kicker">Belgian craftsmanship · Since 2014</span>
+          <h1 id="hero-title" class="hero__title">
+            Trusted work for your <span class="accent">home or business.</span>
+          </h1>
           <p class="hero__lead">
-            From pressure washing and gutter cleaning to small renovations —
-            reliable craftsmanship for homes and small businesses in Belgium.
+            From pressure washing and gutter maintenance to electrical work
+            and full renovations — one reliable partner for everything in and
+            around your building.
           </p>
           <div class="hero__cta">
-            <a href="#contact" class="btn btn-primary">Request a quote</a>
-            <a href="#services" class="btn btn-ghost-light">Our services</a>
+            <a href="#contact" class="btn btn-primary btn-lg">
+              Request a quote
+              <i data-lucide="arrow-right" class="icon"></i>
+            </a>
+            <a href="#services" class="btn btn-ghost-light btn-lg">Our services</a>
+          </div>
+          <div class="hero__meta">
+            <span class="hero__meta-item"><i data-lucide="shield-check" class="icon"></i>Registered &amp; insured</span>
+            <span class="hero__meta-item"><i data-lucide="clock" class="icon"></i>Reply within 24–48h</span>
+            <span class="hero__meta-item"><i data-lucide="thumbs-up" class="icon"></i>500+ happy customers</span>
+          </div>
+        </div>
+        <span class="hero__scroll">Scroll</span>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats" aria-label="Numbers">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stat">
+              <div class="stat__value"><span data-count="11">0</span><span class="stat__suffix">+</span></div>
+              <div class="stat__label">Years of experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value"><span data-count="500">0</span><span class="stat__suffix">+</span></div>
+              <div class="stat__label">Projects completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value"><span data-count="98">0</span><span class="stat__suffix">%</span></div>
+              <div class="stat__label">Happy customers</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value"><span data-count="48">0</span><span class="stat__suffix">h</span></div>
+              <div class="stat__label">Response time</div>
+            </div>
           </div>
         </div>
       </section>
@@ -145,139 +171,160 @@
       <!-- TRUST BAR -->
       <section class="trust" aria-label="Trust">
         <div class="container trust__grid">
-          <div class="trust__item">
-            <i data-lucide="clock" class="icon"></i><span>Fast response</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="hammer" class="icon"></i><span>Craftsmanship</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="message-circle" class="icon"></i
-            ><span>Clear communication</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="users" class="icon"></i
-            ><span>Homes &amp; small businesses</span>
-          </div>
+          <div class="trust__item"><i data-lucide="clock" class="icon"></i><span>Fast response</span></div>
+          <div class="trust__item"><i data-lucide="hammer" class="icon"></i><span>Craftsmanship</span></div>
+          <div class="trust__item"><i data-lucide="message-circle" class="icon"></i><span>Clear communication</span></div>
+          <div class="trust__item"><i data-lucide="users" class="icon"></i><span>Homes &amp; small businesses</span></div>
         </div>
       </section>
 
       <!-- SERVICES -->
-      <section
-        id="services"
-        class="section services reveal"
-        aria-labelledby="services-title"
-      >
+      <section id="services" class="section reveal" aria-labelledby="services-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">Services</p>
-            <h2 id="services-title" class="section-title">What we do for you</h2>
-            <p class="section-lead">
-              We mostly handle smaller jobs and maintenance. One point of
-              contact for your home or business — from refreshing a terrace to
-              a full bathroom.
+            <div>
+              <span class="section-number">/01 — Services</span>
+              <span class="eyebrow">What we do</span>
+              <h2 id="services-title" class="display-2 section-head__heading">
+                One tradesperson for everything in and around your building.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              We mostly handle smaller jobs and maintenance — pressure washing,
+              gutters, electrical and repairs — alongside full renovations
+              when needed. One point of contact, one clear quote.
             </p>
           </header>
 
           <div class="services__grid">
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="droplets" class="icon"></i>
-              </div>
+              <span class="service-card__num">01</span>
+              <div class="service-card__icon"><i data-lucide="droplets" class="icon"></i></div>
               <h3 class="service-card__title">Pressure washing</h3>
-              <p class="service-card__desc">
-                Terraces, driveways, facades and garden paths — fresh and
-                clean again.
-              </p>
+              <p class="service-card__desc">Terraces, driveways, facades and garden paths — fresh and clean again.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="cloud-rain" class="icon"></i>
-              </div>
+              <span class="service-card__num">02</span>
+              <div class="service-card__icon"><i data-lucide="cloud-rain" class="icon"></i></div>
               <h3 class="service-card__title">Gutter cleaning</h3>
-              <p class="service-card__desc">
-                Clearing and flushing gutters before the rainy season hits.
-              </p>
+              <p class="service-card__desc">Clearing and flushing gutters before the rainy season hits.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="wrench" class="icon"></i>
-              </div>
+              <span class="service-card__num">03</span>
+              <div class="service-card__icon"><i data-lucide="wrench" class="icon"></i></div>
               <h3 class="service-card__title">General handywork</h3>
-              <p class="service-card__desc">
-                Mounting, installing, hanging, finishing — whatever you need.
-              </p>
+              <p class="service-card__desc">Mounting, installing, hanging, finishing — whatever you need.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="paintbrush" class="icon"></i>
-              </div>
-              <h3 class="service-card__title">Painting &amp; finishing</h3>
+              <span class="service-card__num">04</span>
+              <div class="service-card__icon"><i data-lucide="zap" class="icon"></i></div>
+              <h3 class="service-card__title">Electrical work</h3>
               <p class="service-card__desc">
-                Indoor or outdoor, small or large surfaces — neatly finished.
+                Outlets, lighting, switches and small adjustments — done
+                neatly and safely.
               </p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="settings" class="icon"></i>
-              </div>
+              <span class="service-card__num">05</span>
+              <div class="service-card__icon"><i data-lucide="settings" class="icon"></i></div>
               <h3 class="service-card__title">Repairs &amp; maintenance</h3>
-              <p class="service-card__desc">
-                Quick interventions and routine maintenance for home and
-                business.
-              </p>
+              <p class="service-card__desc">Quick interventions and routine maintenance for home and business.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="trees" class="icon"></i>
-              </div>
+              <span class="service-card__num">06</span>
+              <div class="service-card__icon"><i data-lucide="trees" class="icon"></i></div>
               <h3 class="service-card__title">Garden &amp; outdoor work</h3>
-              <p class="service-card__desc">
-                Light garden upkeep, pruning and small adjustments around the
-                house.
-              </p>
+              <p class="service-card__desc">Light garden upkeep, pruning and small adjustments around the house.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="hard-hat" class="icon"></i>
-              </div>
+              <span class="service-card__num">07</span>
+              <div class="service-card__icon"><i data-lucide="hard-hat" class="icon"></i></div>
               <h3 class="service-card__title">Renovations</h3>
-              <p class="service-card__desc">
-                Bathroom, kitchen or living space — partial or full, clearly
-                guided.
-              </p>
+              <p class="service-card__desc">Bathroom, kitchen or living space — partial or full, clearly guided.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="hammer" class="icon"></i>
-              </div>
+              <span class="service-card__num">08</span>
+              <div class="service-card__icon"><i data-lucide="hammer" class="icon"></i></div>
               <h3 class="service-card__title">Small construction</h3>
-              <p class="service-card__desc">
-                Partition walls, terraces, storage and custom adjustments.
-              </p>
+              <p class="service-card__desc">Partition walls, terraces, storage and custom adjustments.</p>
+              <a href="#contact" class="service-card__more">Quote <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- PROJECTS (before/after) -->
-      <section
-        id="projects"
-        class="section projects reveal"
-        aria-labelledby="projects-title"
-      >
+      <!-- WHY -->
+      <section id="why" class="section why reveal" aria-labelledby="why-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">Recent work</p>
-            <h2 id="projects-title" class="section-title">Before &amp; after</h2>
-            <p class="section-lead">
+            <div>
+              <span class="section-number">/02 — Why Desaever</span>
+              <span class="eyebrow eyebrow--on-dark">Our promise</span>
+              <h2 id="why-title" class="display-2 section-head__heading">
+                Craftsmanship with a smile. No surprises.
+              </h2>
+            </div>
+            <p class="section-head__lead" style="color: var(--color-on-dark-muted)">
+              We build our work on three principles every customer
+              experiences — from a quick repair to a full renovation.
+            </p>
+          </header>
+
+          <div class="why__grid">
+            <div class="pillar">
+              <div class="pillar__num">01</div>
+              <h3 class="pillar__title">One point of contact</h3>
+              <p class="pillar__desc">
+                One tradesperson, one phone number, one clear quote. No
+                subcontractors to chase, no surprises at the end.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar__num">02</div>
+              <h3 class="pillar__title">Work that lasts</h3>
+              <p class="pillar__desc">
+                We use quality materials and take the time to do it right the
+                first time. What we deliver lasts for years.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar__num">03</div>
+              <h3 class="pillar__title">Transparent pricing</h3>
+              <p class="pillar__desc">
+                A clear quote upfront, no add-ons later without your
+                approval. You always know where you stand.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section projects reveal" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-head">
+            <div>
+              <span class="section-number">/03 — Recent work</span>
+              <span class="eyebrow">Before &amp; after</span>
+              <h2 id="projects-title" class="display-2 section-head__heading">
+                The difference is best seen for yourself.
+              </h2>
+            </div>
+            <p class="section-head__lead">
               A selection of recent projects. Drag to see the difference.
             </p>
           </header>
@@ -294,7 +341,10 @@
                 <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Before/after slider" data-range />
                 <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
-              <figcaption class="project-tile__caption">Pressure washing terrace</figcaption>
+              <figcaption class="project-tile__caption">
+                <span class="project-tile__title">Refreshed terrace</span>
+                <span class="project-tile__category">Pressure washing</span>
+              </figcaption>
             </figure>
 
             <figure class="project-tile" data-tile>
@@ -308,7 +358,10 @@
                 <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Before/after slider" data-range />
                 <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
-              <figcaption class="project-tile__caption">Gutter maintenance</figcaption>
+              <figcaption class="project-tile__caption">
+                <span class="project-tile__title">Gutter replacement</span>
+                <span class="project-tile__category">Maintenance</span>
+              </figcaption>
             </figure>
 
             <figure class="project-tile" data-tile>
@@ -322,7 +375,10 @@
                 <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Before/after slider" data-range />
                 <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
-              <figcaption class="project-tile__caption">Painting &amp; finishing</figcaption>
+              <figcaption class="project-tile__caption">
+                <span class="project-tile__title">Modernized electrics</span>
+                <span class="project-tile__category">Electrical</span>
+              </figcaption>
             </figure>
 
             <figure class="project-tile" data-tile>
@@ -336,7 +392,10 @@
                 <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Before/after slider" data-range />
                 <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
-              <figcaption class="project-tile__caption">Bathroom renovation</figcaption>
+              <figcaption class="project-tile__caption">
+                <span class="project-tile__title">Bathroom renovation</span>
+                <span class="project-tile__category">Renovation</span>
+              </figcaption>
             </figure>
           </div>
         </div>
@@ -346,10 +405,19 @@
       <section id="process" class="section reveal" aria-labelledby="process-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">How we work</p>
-            <h2 id="process-title" class="section-title">Our approach</h2>
-            <p class="section-lead">Simple, transparent and without surprises.</p>
+            <div>
+              <span class="section-number">/04 — How we work</span>
+              <span class="eyebrow">Our approach</span>
+              <h2 id="process-title" class="display-2 section-head__heading">
+                Simple, transparent, no surprises.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              Four steps — from first contact to handover. No long
+              procedures, no unexpected invoices.
+            </p>
           </header>
+
           <ol class="process__list">
             <li class="process-step">
               <div class="process-step__num">01</div>
@@ -358,7 +426,7 @@
             </li>
             <li class="process-step">
               <div class="process-step__num">02</div>
-              <h3 class="process-step__title">Follow-up &amp; quote</h3>
+              <h3 class="process-step__title">Estimate &amp; quote</h3>
               <p class="process-step__desc">We review the project together and send a clear quote.</p>
             </li>
             <li class="process-step">
@@ -375,22 +443,80 @@
         </div>
       </section>
 
+      <!-- TESTIMONIALS -->
+      <section class="section testimonials reveal" aria-labelledby="testimonials-title">
+        <div class="container">
+          <header class="section-head">
+            <div>
+              <span class="section-number">/05 — Customers</span>
+              <span class="eyebrow">What customers say</span>
+              <h2 id="testimonials-title" class="display-2 section-head__heading">
+                Trust you can see in every project.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              Most of our work comes through referrals. Here's a few of their
+              reactions.
+            </p>
+          </header>
+
+          <div class="testimonials__grid">
+            <article class="testimonial">
+              <p class="testimonial__quote">
+                Tibo came by the same week for a quote and started a week
+                later. Quick, neat, and the price matched what we agreed.
+              </p>
+              <div class="testimonial__attr">
+                <span class="testimonial__avatar" aria-hidden="true">SV</span>
+                <div>
+                  <div class="testimonial__name">Sofie V.</div>
+                  <div class="testimonial__role">Homeowner · Bathroom renovation</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <p class="testimonial__quote">
+                For our business they cleaned the facade and terrace — the
+                difference is huge. We now call Desaever for everything
+                maintenance-related.
+              </p>
+              <div class="testimonial__attr">
+                <span class="testimonial__avatar" aria-hidden="true">JM</span>
+                <div>
+                  <div class="testimonial__name">Jan M.</div>
+                  <div class="testimonial__role">Business owner · Facade pressure washing</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <!-- ABOUT -->
-      <section id="about" class="section about reveal" aria-labelledby="about-title">
+      <section id="about" class="section reveal" aria-labelledby="about-title">
         <div class="container about__grid">
           <div>
-            <p class="eyebrow">About us</p>
-            <h2 id="about-title" class="section-title">A tradesperson you can trust</h2>
+            <span class="section-number">/06 — About</span>
+            <span class="eyebrow">Behind the scenes</span>
+            <h2 id="about-title" class="display-2">
+              A tradesperson you can trust.
+            </h2>
             <p class="about__p">
-              Desaever Projects is a Belgian handywork and renovation company
-              focused on reliability, quality and clear communication.
+              Desaever Projects is a Belgian handywork, maintenance and
+              renovation company focused on reliability, quality and clear
+              communication.
             </p>
             <p class="about__p">
               We work for homeowners and small businesses on smaller jobs and
-              maintenance — pressure washing, gutter cleaning, painting and
+              maintenance — pressure washing, gutter cleaning, electrical and
               repairs — alongside full renovations when needed. No sales talk
               — just good work and clear agreements.
             </p>
+            <div class="about__signature">
+              <i data-lucide="badge-check" class="icon"></i>
+              <span><strong>Tibo Desaever</strong> · Founder &amp; tradesperson</span>
+            </div>
           </div>
           <div class="about__media">
             <img src="../img/about.svg" alt="Tradesperson at work" loading="lazy" width="800" height="900" />
@@ -402,10 +528,21 @@
       <section class="cta-band reveal" aria-labelledby="cta-title">
         <div class="container cta-band__inner">
           <div>
-            <h2 id="cta-title" class="cta-band__title">Need renovation or repair work?</h2>
-            <p class="cta-band__lead">We get back to you within 24–48 hours.</p>
+            <span class="eyebrow eyebrow--on-dark">Ready to start?</span>
+            <h2 id="cta-title" class="cta-band__title">
+              Need work done? You'll get a quote within 48 hours.
+            </h2>
+            <p class="cta-band__lead">
+              No sales talk, just a clear answer.
+            </p>
           </div>
-          <a href="#contact" class="btn btn-primary cta-band__btn">Request a quote</a>
+          <div class="cta-band__actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Request a quote</a>
+            <a href="tel:+32469219574" class="cta-band__phone">
+              <i data-lucide="phone" class="icon"></i>
+              <span>Or call +32 469 21 95 74</span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -413,11 +550,12 @@
       <section id="contact" class="section contact reveal" aria-labelledby="contact-title">
         <div class="container contact__grid">
           <div>
-            <p class="eyebrow">Contact</p>
-            <h2 id="contact-title" class="section-title">Request a quote</h2>
-            <p class="section-lead">
+            <span class="section-number">/07 — Contact</span>
+            <span class="eyebrow">Get in touch</span>
+            <h2 id="contact-title" class="display-2">Request your quote.</h2>
+            <p class="section-head__lead" style="margin-top: 1rem">
               Fill in the form or call us directly. We respond within 24–48
-              hours.
+              hours — usually faster.
             </p>
 
             <div class="contact__info">
@@ -436,7 +574,7 @@
                 <li>
                   <i data-lucide="map-pin" class="icon" aria-hidden="true"></i>
                   <span class="contact__label">Region</span>
-                  <span>Belgium</span>
+                  <span>All of Belgium</span>
                 </li>
               </ul>
               <p class="contact__response">
@@ -447,13 +585,7 @@
           </div>
 
           <div class="contact__form-wrap">
-            <form
-              class="contact-form"
-              action="https://formsubmit.co/ajax/tibo@dgroup.be"
-              method="POST"
-              data-form
-              novalidate
-            >
+            <form class="contact-form" action="https://formsubmit.co/ajax/tibo@dgroup.be" method="POST" data-form novalidate>
               <input type="hidden" name="_subject" value="New quote request · Desaever Projects" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
@@ -483,7 +615,7 @@
                     <option value="pressure">Pressure washing</option>
                     <option value="gutter">Gutter cleaning</option>
                     <option value="handy">General handywork</option>
-                    <option value="paint">Painting / finishing</option>
+                    <option value="electrical">Electrical work</option>
                     <option value="maintenance">Repair / maintenance</option>
                     <option value="outdoor">Garden / outdoor work</option>
                     <option value="renovation">Renovation</option>
@@ -498,13 +630,9 @@
                 <textarea id="cf-message" name="message" rows="5" required placeholder="Briefly describe your project or question"></textarea>
               </div>
 
-              <button
-                type="submit"
-                class="btn btn-primary contact-form__submit"
-                data-submit
-                data-sending="Sending…"
-              >
+              <button type="submit" class="btn btn-primary contact-form__submit" data-submit data-sending="Sending…">
                 <span data-submit-label>Request a quote</span>
+                <i data-lucide="arrow-right" class="icon"></i>
               </button>
 
               <p class="contact-form__error" data-error hidden role="alert">
@@ -522,38 +650,47 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container site-footer__grid">
-        <div class="site-footer__brand">
-          <a href="../" aria-label="Desaever Projects">
-            <img src="../img/logo/wordmark.svg" alt="Desaever Projects" class="site-footer__wordmark" />
-          </a>
-          <p>Handywork · Maintenance · Renovation</p>
+      <div class="container">
+        <div class="site-footer__top">
+          <div class="site-footer__brand">
+            <a href="../" aria-label="Desaever Projects">
+              <img src="../img/logo/wordmark.svg" alt="Desaever Projects" class="site-footer__wordmark" />
+            </a>
+            <p>
+              Belgian handywork, maintenance and renovation company for homes
+              and small businesses. One tradesperson, one clear quote.
+            </p>
+          </div>
+          <div class="site-footer__col">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#services">Pressure washing</a></li>
+              <li><a href="#services">Gutter cleaning</a></li>
+              <li><a href="#services">Electrical work</a></li>
+              <li><a href="#services">General handywork</a></li>
+              <li><a href="#services">Repairs &amp; maintenance</a></li>
+              <li><a href="#services">Renovations</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__col">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+32469219574">+32 469 21 95 74</a></li>
+              <li><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></li>
+              <li>All of Belgium</li>
+            </ul>
+          </div>
         </div>
-        <div class="site-footer__col">
-          <h3>Services</h3>
-          <ul>
-            <li><a href="#services">Pressure washing</a></li>
-            <li><a href="#services">Gutter cleaning</a></li>
-            <li><a href="#services">General handywork</a></li>
-            <li><a href="#services">Painting &amp; finishing</a></li>
-            <li><a href="#services">Repairs &amp; maintenance</a></li>
-            <li><a href="#services">Renovations</a></li>
-          </ul>
+        <div class="site-footer__bar">
+          <span>© <span data-year>2026</span> Desaever Projects · All rights reserved.</span>
+          <span>Part of Desaever Group</span>
         </div>
-        <div class="site-footer__col">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="tel:+32469219574">+32 469 21 95 74</a></li>
-            <li><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></li>
-            <li>Belgium</li>
-          </ul>
-        </div>
-      </div>
-      <div class="container site-footer__bar">
-        <span>© <span data-year>2026</span> Desaever Projects · All rights reserved.</span>
-        <span>Part of Desaever Group</span>
       </div>
     </footer>
+
+    <a href="tel:+32469219574" class="float-call" aria-label="Call Desaever Projects">
+      <i data-lucide="phone" class="icon"></i>
+    </a>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script src="../assets/js/main.js"></script>

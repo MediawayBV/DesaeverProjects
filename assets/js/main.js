@@ -1,6 +1,10 @@
 (() => {
   "use strict";
 
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
   // ----- Lucide icons -----
   if (window.lucide && typeof window.lucide.createIcons === "function") {
     window.lucide.createIcons();
@@ -39,7 +43,7 @@
   }
 
   // ----- Reveal on scroll -----
-  const io =
+  const revealIO =
     "IntersectionObserver" in window
       ? new IntersectionObserver(
           (entries, obs) => {
@@ -54,8 +58,50 @@
         )
       : null;
   document.querySelectorAll(".reveal").forEach((el) => {
-    if (io) io.observe(el);
+    if (revealIO) revealIO.observe(el);
     else el.classList.add("is-visible");
+  });
+
+  // ----- Stats counter (count up on scroll into view) -----
+  const animateCount = (el) => {
+    const target = Number(el.dataset.count || el.textContent || 0);
+    if (!Number.isFinite(target) || target === 0) return;
+    if (reduceMotion) {
+      el.textContent = String(target);
+      return;
+    }
+    const duration = 1400;
+    const start = performance.now();
+    const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+    const step = (now) => {
+      const t = Math.min(1, (now - start) / duration);
+      const current = Math.round(target * easeOut(t));
+      el.textContent = String(current);
+      if (t < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  const statsIO =
+    "IntersectionObserver" in window
+      ? new IntersectionObserver(
+          (entries, obs) => {
+            for (const e of entries) {
+              if (e.isIntersecting) {
+                animateCount(e.target);
+                obs.unobserve(e.target);
+              }
+            }
+          },
+          { threshold: 0.4 }
+        )
+      : null;
+  document.querySelectorAll("[data-count]").forEach((el) => {
+    if (statsIO) {
+      el.textContent = "0";
+      statsIO.observe(el);
+    } else {
+      el.textContent = el.dataset.count;
+    }
   });
 
   // ----- Before/after sliders -----
@@ -70,7 +116,6 @@
       const pct = Math.max(0, Math.min(100, v));
       before.style.width = pct + "%";
       handle.style.left = pct + "%";
-      // counter-stretch the inner image so it stays the same visual size as the after image
       beforeImg.style.width = (100 / Math.max(pct, 0.01)) * 100 + "%";
     };
     apply(Number(range.value));
@@ -131,6 +176,7 @@
   }
 
   // ----- Footer year -----
-  const yearEl = document.querySelector("[data-year]");
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+  document.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
 })();

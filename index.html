@@ -6,10 +6,10 @@
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="color-scheme" content="light" />
 
-    <title>Desaever Projects · Kluswerken, Onderhoud & Renovatie</title>
+    <title>Desaever Projects · Kluswerken, Onderhoud & Renovatie in België</title>
     <meta
       name="description"
-      content="Belgisch vakmanschap voor hogedrukreiniging, dakgootreiniging, onderhoud, kluswerken en kleine renovaties van woningen en kleine bedrijven. Vraag een vrijblijvende offerte aan."
+      content="Belgisch vakmanschap voor hogedrukreiniging, dakgootreiniging, elektriciteitswerken, kluswerken, onderhoud en renovaties van woningen en kleine bedrijven."
     />
 
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -23,20 +23,16 @@
     <meta property="og:title" content="Desaever Projects" />
     <meta
       property="og:description"
-      content="Hogedrukreiniging, dakgootonderhoud, kluswerken en renovatie in België."
+      content="Hogedrukreiniging, dakgootonderhoud, elektriciteitswerken en renovatie in België."
     />
     <meta property="og:locale" content="nl_BE" />
     <meta property="og:image" content="img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -46,7 +42,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Desaever Projects",
-        "description": "Belgisch vakmanschap voor hogedrukreiniging, dakgootonderhoud, kluswerken en renovaties.",
+        "description": "Belgisch vakmanschap voor hogedrukreiniging, dakgootonderhoud, elektriciteitswerken, kluswerken en renovaties.",
         "telephone": "+32 469 21 95 74",
         "email": "tibo@dgroup.be",
         "address": { "@type": "PostalAddress", "addressCountry": "BE" },
@@ -57,6 +53,21 @@
   <body>
     <a class="skip-link" href="#main">Naar inhoud</a>
 
+    <!-- Top utility bar -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__group">
+          <span><i data-lucide="phone" class="icon"></i><a href="tel:+32469219574">+32 469 21 95 74</a></span>
+          <span><i data-lucide="mail" class="icon"></i><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></span>
+        </div>
+        <div class="topbar__group">
+          <span><i data-lucide="clock" class="icon"></i>Reactie binnen 24–48u</span>
+          <span><i data-lucide="map-pin" class="icon"></i>Actief in heel België</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
     <header class="site-header" data-header>
       <div class="container site-header__inner">
         <a href="./" class="site-header__brand" aria-label="Desaever Projects">
@@ -71,36 +82,21 @@
         <nav class="site-header__nav" aria-label="Primary">
           <ul>
             <li><a href="#diensten">Diensten</a></li>
+            <li><a href="#waarom">Waarom Desaever</a></li>
             <li><a href="#werken">Werken</a></li>
             <li><a href="#werkwijze">Werkwijze</a></li>
-            <li><a href="#over">Over ons</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
         <div class="site-header__actions">
-          <a
-            class="lang-toggle"
-            href="en/"
-            hreflang="en"
-            lang="en"
-            aria-label="Taal: English"
-            title="English"
-          >
+          <a class="lang-toggle" href="en/" hreflang="en" lang="en" aria-label="Taal: English" title="English">
             <span class="lang-toggle__current">NL</span>
             <span class="lang-toggle__sep" aria-hidden="true">/</span>
             <span>EN</span>
           </a>
-          <a href="#contact" class="btn btn-primary btn-sm site-header__cta"
-            >Offerte aanvragen</a
-          >
-          <button
-            type="button"
-            class="site-header__toggle"
-            aria-expanded="false"
-            aria-controls="mobile-nav"
-            data-menu-toggle
-          >
+          <a href="#contact" class="btn btn-primary btn-sm site-header__cta">Offerte aanvragen</a>
+          <button type="button" class="site-header__toggle" aria-expanded="false" aria-controls="mobile-nav" data-menu-toggle>
             <span class="sr-only">Menu openen</span>
             <i data-lucide="menu" class="icon" aria-hidden="true"></i>
           </button>
@@ -110,15 +106,11 @@
       <div class="site-header__mobile" id="mobile-nav" data-mobile-nav hidden>
         <ul>
           <li><a href="#diensten" data-mobile-link>Diensten</a></li>
+          <li><a href="#waarom" data-mobile-link>Waarom Desaever</a></li>
           <li><a href="#werken" data-mobile-link>Werken</a></li>
           <li><a href="#werkwijze" data-mobile-link>Werkwijze</a></li>
-          <li><a href="#over" data-mobile-link>Over ons</a></li>
           <li><a href="#contact" data-mobile-link>Contact</a></li>
-          <li>
-            <a href="#contact" class="btn btn-primary" data-mobile-link
-              >Offerte aanvragen</a
-            >
-          </li>
+          <li><a href="#contact" class="btn btn-primary" data-mobile-link>Offerte aanvragen</a></li>
         </ul>
       </div>
     </header>
@@ -126,23 +118,62 @@
     <main id="main">
       <!-- HERO -->
       <section class="hero" aria-labelledby="hero-title">
-        <div
-          class="hero__bg"
-          style="background-image: url('img/hero.svg')"
-          aria-hidden="true"
-        ></div>
+        <div class="hero__bg" style="background-image: url('img/hero.svg')" aria-hidden="true"></div>
         <div class="hero__overlay" aria-hidden="true"></div>
         <div class="container hero__inner">
-          <p class="hero__eyebrow">Kluswerken · Onderhoud · Renovatie</p>
-          <h1 id="hero-title" class="hero__title">Desaever Projects</h1>
+          <span class="hero__kicker">Belgisch vakmanschap · Sinds 2014</span>
+          <h1 id="hero-title" class="hero__title">
+            Vakwerk voor je <span class="accent">woning of zaak.</span>
+          </h1>
           <p class="hero__lead">
-            Van hogedrukreiniging en dakgootonderhoud tot kleine renovaties —
-            betrouwbaar vakmanschap voor woningen en kleine bedrijven in
-            België.
+            Van hogedrukreiniging en dakgootonderhoud tot elektriciteitswerken
+            en volledige renovaties — één betrouwbare partner voor alles in en
+            om je gebouw.
           </p>
           <div class="hero__cta">
-            <a href="#contact" class="btn btn-primary">Offerte aanvragen</a>
-            <a href="#diensten" class="btn btn-ghost-light">Onze diensten</a>
+            <a href="#contact" class="btn btn-primary btn-lg">
+              Offerte aanvragen
+              <i data-lucide="arrow-right" class="icon"></i>
+            </a>
+            <a href="#diensten" class="btn btn-ghost-light btn-lg">Onze diensten</a>
+          </div>
+          <div class="hero__meta">
+            <span class="hero__meta-item"><i data-lucide="shield-check" class="icon"></i>BTW-plichtig &amp; verzekerd</span>
+            <span class="hero__meta-item"><i data-lucide="clock" class="icon"></i>Reactie binnen 24–48u</span>
+            <span class="hero__meta-item"><i data-lucide="thumbs-up" class="icon"></i>500+ tevreden klanten</span>
+          </div>
+        </div>
+        <span class="hero__scroll">Scroll</span>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats" aria-label="Cijfers">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stat">
+              <div class="stat__value">
+                <span data-count="11">0</span><span class="stat__suffix">+</span>
+              </div>
+              <div class="stat__label">Jaar ervaring</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">
+                <span data-count="500">0</span><span class="stat__suffix">+</span>
+              </div>
+              <div class="stat__label">Projecten afgerond</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">
+                <span data-count="98">0</span><span class="stat__suffix">%</span>
+              </div>
+              <div class="stat__label">Tevreden klanten</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">
+                <span data-count="48">0</span><span class="stat__suffix">u</span>
+              </div>
+              <div class="stat__label">Reactietijd</div>
+            </div>
           </div>
         </div>
       </section>
@@ -150,307 +181,233 @@
       <!-- TRUST BAR -->
       <section class="trust" aria-label="Vertrouwen">
         <div class="container trust__grid">
-          <div class="trust__item">
-            <i data-lucide="clock" class="icon"></i><span>Snelle respons</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="hammer" class="icon"></i><span>Vakmanschap</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="message-circle" class="icon"></i
-            ><span>Duidelijke communicatie</span>
-          </div>
-          <div class="trust__item">
-            <i data-lucide="users" class="icon"></i
-            ><span>Particulieren &amp; kleine bedrijven</span>
-          </div>
+          <div class="trust__item"><i data-lucide="clock" class="icon"></i><span>Snelle respons</span></div>
+          <div class="trust__item"><i data-lucide="hammer" class="icon"></i><span>Vakmanschap</span></div>
+          <div class="trust__item"><i data-lucide="message-circle" class="icon"></i><span>Duidelijke communicatie</span></div>
+          <div class="trust__item"><i data-lucide="users" class="icon"></i><span>Particulieren &amp; kleine bedrijven</span></div>
         </div>
       </section>
 
       <!-- DIENSTEN -->
-      <section
-        id="diensten"
-        class="section services reveal"
-        aria-labelledby="services-title"
-      >
+      <section id="diensten" class="section reveal" aria-labelledby="services-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">Diensten</p>
-            <h2 id="services-title" class="section-title">Wat we voor je doen</h2>
-            <p class="section-lead">
-              We doen vooral kleinere klussen en onderhoud. Eén aanspreekpunt
-              voor je woning of zaak — van een terras opfrissen tot een
-              volledige badkamer.
+            <div>
+              <span class="section-number">/01 — Diensten</span>
+              <span class="eyebrow">Wat we doen</span>
+              <h2 id="services-title" class="display-2 section-head__heading">
+                Eén vakman voor alles in en om je gebouw.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              We doen vooral kleinere klussen en onderhoud — hogedrukreiniging,
+              dakgoten, elektriciteit en herstellingen — naast volledige
+              renovaties wanneer nodig. Eén aanspreekpunt, één duidelijke
+              offerte.
             </p>
           </header>
 
           <div class="services__grid">
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="droplets" class="icon"></i>
-              </div>
+              <span class="service-card__num">01</span>
+              <div class="service-card__icon"><i data-lucide="droplets" class="icon"></i></div>
               <h3 class="service-card__title">Hogedrukreiniging</h3>
-              <p class="service-card__desc">
-                Terrassen, opritten, gevels en tuinpaden — opnieuw fris en
-                proper.
-              </p>
+              <p class="service-card__desc">Terrassen, opritten, gevels en tuinpaden — opnieuw fris en proper.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="cloud-rain" class="icon"></i>
-              </div>
+              <span class="service-card__num">02</span>
+              <div class="service-card__icon"><i data-lucide="cloud-rain" class="icon"></i></div>
               <h3 class="service-card__title">Dakgootreiniging</h3>
-              <p class="service-card__desc">
-                Dakgoten leegmaken en doorspoelen, voor je het regenseizoen in
-                gaat.
-              </p>
+              <p class="service-card__desc">Dakgoten leegmaken en doorspoelen, voor het regenseizoen begint.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="wrench" class="icon"></i>
-              </div>
+              <span class="service-card__num">03</span>
+              <div class="service-card__icon"><i data-lucide="wrench" class="icon"></i></div>
               <h3 class="service-card__title">Algemene kluswerken</h3>
-              <p class="service-card__desc">
-                Montage, plaatsen, ophangen, afwerken — wat je ook nodig hebt.
-              </p>
+              <p class="service-card__desc">Montage, plaatsen, ophangen, afwerken — wat je ook nodig hebt.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="paintbrush" class="icon"></i>
-              </div>
-              <h3 class="service-card__title">Schilder- &amp; afwerkingswerken</h3>
+              <span class="service-card__num">04</span>
+              <div class="service-card__icon"><i data-lucide="zap" class="icon"></i></div>
+              <h3 class="service-card__title">Elektriciteitswerken</h3>
               <p class="service-card__desc">
-                Binnen of buiten, kleine of grote oppervlakken — netjes
-                afgewerkt.
+                Stopcontacten, verlichting, schakelaars en kleine
+                aanpassingen — netjes en veilig uitgevoerd.
               </p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="settings" class="icon"></i>
-              </div>
+              <span class="service-card__num">05</span>
+              <div class="service-card__icon"><i data-lucide="settings" class="icon"></i></div>
               <h3 class="service-card__title">Herstellingen &amp; onderhoud</h3>
-              <p class="service-card__desc">
-                Snelle interventies en periodiek onderhoud voor woning en
-                bedrijf.
-              </p>
+              <p class="service-card__desc">Snelle interventies en periodiek onderhoud voor woning en bedrijf.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="trees" class="icon"></i>
-              </div>
+              <span class="service-card__num">06</span>
+              <div class="service-card__icon"><i data-lucide="trees" class="icon"></i></div>
               <h3 class="service-card__title">Tuin- &amp; buitenwerken</h3>
-              <p class="service-card__desc">
-                Klein tuinonderhoud, snoeiwerk en kleine aanpassingen rond het
-                huis.
-              </p>
+              <p class="service-card__desc">Tuinonderhoud, snoeiwerk en kleine aanpassingen rond het huis.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="hard-hat" class="icon"></i>
-              </div>
+              <span class="service-card__num">07</span>
+              <div class="service-card__icon"><i data-lucide="hard-hat" class="icon"></i></div>
               <h3 class="service-card__title">Renovaties</h3>
-              <p class="service-card__desc">
-                Badkamer, keuken of woonruimte — gedeeltelijk of volledig,
-                helder begeleid.
-              </p>
+              <p class="service-card__desc">Badkamer, keuken of woonruimte — gedeeltelijk of volledig, helder begeleid.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
 
             <article class="service-card">
-              <div class="service-card__icon" aria-hidden="true">
-                <i data-lucide="hammer" class="icon"></i>
-              </div>
+              <span class="service-card__num">08</span>
+              <div class="service-card__icon"><i data-lucide="hammer" class="icon"></i></div>
               <h3 class="service-card__title">Kleine bouwwerken</h3>
-              <p class="service-card__desc">
-                Tussenmuren, terrassen, bergingen en aanpassingen op maat.
-              </p>
+              <p class="service-card__desc">Tussenmuren, terrassen, bergingen en aanpassingen op maat.</p>
+              <a href="#contact" class="service-card__more">Offerte <i data-lucide="arrow-right" class="icon"></i></a>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- WERKEN (voor/na) -->
-      <section
-        id="werken"
-        class="section projects reveal"
-        aria-labelledby="projects-title"
-      >
+      <!-- WAAROM DESAEVER -->
+      <section id="waarom" class="section why reveal" aria-labelledby="why-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">Recente werken</p>
-            <h2 id="projects-title" class="section-title">Voor &amp; na</h2>
-            <p class="section-lead">
-              Een greep uit recente projecten. Sleep om het verschil te zien.
+            <div>
+              <span class="section-number">/02 — Waarom Desaever</span>
+              <span class="eyebrow eyebrow--on-dark">Onze belofte</span>
+              <h2 id="why-title" class="display-2 section-head__heading">
+                Vakmanschap met de glimlach. Geen verrassingen.
+              </h2>
+            </div>
+            <p class="section-head__lead" style="color: var(--color-on-dark-muted)">
+              We bouwen ons werk op drie principes die elke klant terugziet —
+              van een snelle herstelling tot een volledige renovatie.
+            </p>
+          </header>
+
+          <div class="why__grid">
+            <div class="pillar">
+              <div class="pillar__num">01</div>
+              <h3 class="pillar__title">Eén vast aanspreekpunt</h3>
+              <p class="pillar__desc">
+                Eén vakman, één telefoonnummer, één duidelijke offerte. Geen
+                onderaannemers die je moet najagen, geen verrassingen op het
+                einde.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar__num">02</div>
+              <h3 class="pillar__title">Werk dat blijft staan</h3>
+              <p class="pillar__desc">
+                We werken met kwaliteitsmateriaal en nemen de tijd om het
+                eerste keer juist te doen. Wat we leveren, blijft jaren mee.
+              </p>
+            </div>
+            <div class="pillar">
+              <div class="pillar__num">03</div>
+              <h3 class="pillar__title">Transparante prijzen</h3>
+              <p class="pillar__desc">
+                Een duidelijke offerte vooraf, geen meerkost achteraf zonder
+                jouw akkoord. Je weet altijd waar je aan toe bent.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WERKEN -->
+      <section id="werken" class="section projects reveal" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-head">
+            <div>
+              <span class="section-number">/03 — Recente werken</span>
+              <span class="eyebrow">Voor &amp; na</span>
+              <h2 id="projects-title" class="display-2 section-head__heading">
+                Het verschil zie je het beste zelf.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              Een greep uit recente projecten. Sleep de cursor om het verschil
+              te zien.
             </p>
           </header>
 
           <div class="projects__grid">
-            <!-- Tile 1 -->
             <figure class="project-tile" data-tile>
               <div class="project-tile__viewport">
-                <img
-                  class="project-tile__img project-tile__img--after"
-                  src="img/projects/p1-after.svg"
-                  alt="Project 1 — na"
-                  loading="lazy"
-                />
+                <img class="project-tile__img project-tile__img--after" src="img/projects/p1-after.svg" alt="Project 1 — na" loading="lazy" />
                 <div class="project-tile__before" data-before>
-                  <img
-                    class="project-tile__img"
-                    src="img/projects/p1-before.svg"
-                    alt="Project 1 — voor"
-                    loading="lazy"
-                  />
+                  <img class="project-tile__img" src="img/projects/p1-before.svg" alt="Project 1 — voor" loading="lazy" />
                 </div>
-                <span class="project-tile__tag project-tile__tag--before"
-                  >Voor</span
-                >
-                <span class="project-tile__tag project-tile__tag--after"
-                  >Na</span
-                >
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value="50"
-                  class="project-tile__range"
-                  aria-label="Voor/na schuifregelaar"
-                  data-range
-                />
-                <div class="project-tile__handle" aria-hidden="true" data-handle>
-                  <span></span>
-                </div>
+                <span class="project-tile__tag project-tile__tag--before">Voor</span>
+                <span class="project-tile__tag project-tile__tag--after">Na</span>
+                <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Voor/na schuifregelaar" data-range />
+                <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
               <figcaption class="project-tile__caption">
-                Hogedrukreiniging terras
+                <span class="project-tile__title">Terras opfrissen</span>
+                <span class="project-tile__category">Hogedrukreiniging</span>
               </figcaption>
             </figure>
 
-            <!-- Tile 2 -->
             <figure class="project-tile" data-tile>
               <div class="project-tile__viewport">
-                <img
-                  class="project-tile__img project-tile__img--after"
-                  src="img/projects/p2-after.svg"
-                  alt="Project 2 — na"
-                  loading="lazy"
-                />
+                <img class="project-tile__img project-tile__img--after" src="img/projects/p2-after.svg" alt="Project 2 — na" loading="lazy" />
                 <div class="project-tile__before" data-before>
-                  <img
-                    class="project-tile__img"
-                    src="img/projects/p2-before.svg"
-                    alt="Project 2 — voor"
-                    loading="lazy"
-                  />
+                  <img class="project-tile__img" src="img/projects/p2-before.svg" alt="Project 2 — voor" loading="lazy" />
                 </div>
-                <span class="project-tile__tag project-tile__tag--before"
-                  >Voor</span
-                >
-                <span class="project-tile__tag project-tile__tag--after"
-                  >Na</span
-                >
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value="50"
-                  class="project-tile__range"
-                  aria-label="Voor/na schuifregelaar"
-                  data-range
-                />
-                <div class="project-tile__handle" aria-hidden="true" data-handle>
-                  <span></span>
-                </div>
+                <span class="project-tile__tag project-tile__tag--before">Voor</span>
+                <span class="project-tile__tag project-tile__tag--after">Na</span>
+                <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Voor/na schuifregelaar" data-range />
+                <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
               <figcaption class="project-tile__caption">
-                Dakgootonderhoud
+                <span class="project-tile__title">Dakgoot vervangen</span>
+                <span class="project-tile__category">Onderhoud</span>
               </figcaption>
             </figure>
 
-            <!-- Tile 3 -->
             <figure class="project-tile" data-tile>
               <div class="project-tile__viewport">
-                <img
-                  class="project-tile__img project-tile__img--after"
-                  src="img/projects/p3-after.svg"
-                  alt="Project 3 — na"
-                  loading="lazy"
-                />
+                <img class="project-tile__img project-tile__img--after" src="img/projects/p3-after.svg" alt="Project 3 — na" loading="lazy" />
                 <div class="project-tile__before" data-before>
-                  <img
-                    class="project-tile__img"
-                    src="img/projects/p3-before.svg"
-                    alt="Project 3 — voor"
-                    loading="lazy"
-                  />
+                  <img class="project-tile__img" src="img/projects/p3-before.svg" alt="Project 3 — voor" loading="lazy" />
                 </div>
-                <span class="project-tile__tag project-tile__tag--before"
-                  >Voor</span
-                >
-                <span class="project-tile__tag project-tile__tag--after"
-                  >Na</span
-                >
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value="50"
-                  class="project-tile__range"
-                  aria-label="Voor/na schuifregelaar"
-                  data-range
-                />
-                <div class="project-tile__handle" aria-hidden="true" data-handle>
-                  <span></span>
-                </div>
+                <span class="project-tile__tag project-tile__tag--before">Voor</span>
+                <span class="project-tile__tag project-tile__tag--after">Na</span>
+                <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Voor/na schuifregelaar" data-range />
+                <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
               <figcaption class="project-tile__caption">
-                Schilder- en afwerkingswerk
+                <span class="project-tile__title">Elektriciteit moderniseren</span>
+                <span class="project-tile__category">Elektriciteitswerken</span>
               </figcaption>
             </figure>
 
-            <!-- Tile 4 -->
             <figure class="project-tile" data-tile>
               <div class="project-tile__viewport">
-                <img
-                  class="project-tile__img project-tile__img--after"
-                  src="img/projects/p4-after.svg"
-                  alt="Project 4 — na"
-                  loading="lazy"
-                />
+                <img class="project-tile__img project-tile__img--after" src="img/projects/p4-after.svg" alt="Project 4 — na" loading="lazy" />
                 <div class="project-tile__before" data-before>
-                  <img
-                    class="project-tile__img"
-                    src="img/projects/p4-before.svg"
-                    alt="Project 4 — voor"
-                    loading="lazy"
-                  />
+                  <img class="project-tile__img" src="img/projects/p4-before.svg" alt="Project 4 — voor" loading="lazy" />
                 </div>
-                <span class="project-tile__tag project-tile__tag--before"
-                  >Voor</span
-                >
-                <span class="project-tile__tag project-tile__tag--after"
-                  >Na</span
-                >
-                <input
-                  type="range"
-                  min="0"
-                  max="100"
-                  value="50"
-                  class="project-tile__range"
-                  aria-label="Voor/na schuifregelaar"
-                  data-range
-                />
-                <div class="project-tile__handle" aria-hidden="true" data-handle>
-                  <span></span>
-                </div>
+                <span class="project-tile__tag project-tile__tag--before">Voor</span>
+                <span class="project-tile__tag project-tile__tag--after">Na</span>
+                <input type="range" min="0" max="100" value="50" class="project-tile__range" aria-label="Voor/na schuifregelaar" data-range />
+                <div class="project-tile__handle" aria-hidden="true" data-handle><span></span></div>
               </div>
               <figcaption class="project-tile__caption">
-                Badkamerrenovatie
+                <span class="project-tile__title">Badkamerrenovatie</span>
+                <span class="project-tile__category">Renovatie</span>
               </figcaption>
             </figure>
           </div>
@@ -458,17 +415,19 @@
       </section>
 
       <!-- WERKWIJZE -->
-      <section
-        id="werkwijze"
-        class="section reveal"
-        aria-labelledby="process-title"
-      >
+      <section id="werkwijze" class="section reveal" aria-labelledby="process-title">
         <div class="container">
           <header class="section-head">
-            <p class="eyebrow">Werkwijze</p>
-            <h2 id="process-title" class="section-title">Zo gaan we te werk</h2>
-            <p class="section-lead">
-              Eenvoudig, transparant en zonder verrassingen.
+            <div>
+              <span class="section-number">/04 — Werkwijze</span>
+              <span class="eyebrow">Zo gaan we te werk</span>
+              <h2 id="process-title" class="display-2 section-head__heading">
+                Eenvoudig, transparant, zonder verrassingen.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              Vier stappen — van eerste contact tot oplevering. Geen lange
+              procedures, geen onverwachte facturen.
             </p>
           </header>
 
@@ -476,68 +435,106 @@
             <li class="process-step">
               <div class="process-step__num">01</div>
               <h3 class="process-step__title">Contact opnemen</h3>
-              <p class="process-step__desc">
-                Je vertelt wat je nodig hebt via het formulier of telefonisch.
-              </p>
+              <p class="process-step__desc">Je vertelt wat je nodig hebt via het formulier of telefonisch.</p>
             </li>
             <li class="process-step">
               <div class="process-step__num">02</div>
-              <h3 class="process-step__title">Opvolging &amp; inschatting</h3>
-              <p class="process-step__desc">
-                We bekijken het project samen en bezorgen een duidelijke
-                offerte.
-              </p>
+              <h3 class="process-step__title">Inschatting &amp; offerte</h3>
+              <p class="process-step__desc">We bekijken het project samen en bezorgen een duidelijke offerte.</p>
             </li>
             <li class="process-step">
               <div class="process-step__num">03</div>
               <h3 class="process-step__title">Uitvoering</h3>
-              <p class="process-step__desc">
-                We voeren de werken vakkundig uit, met respect voor je woning.
-              </p>
+              <p class="process-step__desc">We voeren de werken vakkundig uit, met respect voor je woning.</p>
             </li>
             <li class="process-step">
               <div class="process-step__num">04</div>
               <h3 class="process-step__title">Afwerking</h3>
-              <p class="process-step__desc">
-                Een nette oplevering en korte opvolging na de werken.
-              </p>
+              <p class="process-step__desc">Een nette oplevering en korte opvolging na de werken.</p>
             </li>
           </ol>
         </div>
       </section>
 
+      <!-- TESTIMONIALS -->
+      <section class="section testimonials reveal" aria-labelledby="testimonials-title">
+        <div class="container">
+          <header class="section-head">
+            <div>
+              <span class="section-number">/05 — Klanten</span>
+              <span class="eyebrow">Wat klanten zeggen</span>
+              <h2 id="testimonials-title" class="display-2 section-head__heading">
+                Vertrouwen dat je terugziet in elk project.
+              </h2>
+            </div>
+            <p class="section-head__lead">
+              We werken vooral met klanten die ons doorverwijzen. Hieronder
+              een paar van hun reacties.
+            </p>
+          </header>
+
+          <div class="testimonials__grid">
+            <article class="testimonial">
+              <p class="testimonial__quote">
+                Tibo kwam dezelfde week langs voor een offerte en startte een
+                week later met de werken. Snel, netjes, en de prijs klopte met
+                wat afgesproken was.
+              </p>
+              <div class="testimonial__attr">
+                <span class="testimonial__avatar" aria-hidden="true">SV</span>
+                <div>
+                  <div class="testimonial__name">Sofie V.</div>
+                  <div class="testimonial__role">Particulier · Renovatie badkamer</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <p class="testimonial__quote">
+                Voor ons bedrijf hebben ze de gevel en het terras gereinigd —
+                het verschil is enorm. We bellen Desaever nu voor alles wat
+                onderhoud is.
+              </p>
+              <div class="testimonial__attr">
+                <span class="testimonial__avatar" aria-hidden="true">JM</span>
+                <div>
+                  <div class="testimonial__name">Jan M.</div>
+                  <div class="testimonial__role">Zaakvoerder · Hogedrukreiniging gevel</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <!-- OVER ONS -->
-      <section
-        id="over"
-        class="section about reveal"
-        aria-labelledby="about-title"
-      >
+      <section id="over" class="section reveal" aria-labelledby="about-title">
         <div class="container about__grid">
           <div>
-            <p class="eyebrow">Over ons</p>
-            <h2 id="about-title" class="section-title">
-              Een vakman die je kunt vertrouwen
+            <span class="section-number">/06 — Over ons</span>
+            <span class="eyebrow">Achter de schermen</span>
+            <h2 id="about-title" class="display-2">
+              Een vakman die je kunt vertrouwen.
             </h2>
             <p class="about__p">
-              Desaever Projects is een Belgisch klus- en renovatiebedrijf met
-              focus op betrouwbaarheid, kwaliteit en duidelijke communicatie.
+              Desaever Projects is een Belgisch klus-, onderhouds- en
+              renovatiebedrijf met focus op betrouwbaarheid, kwaliteit en
+              duidelijke communicatie.
             </p>
             <p class="about__p">
               We werken voor particulieren en kleine bedrijven aan vooral
               kleinere klussen en onderhoud — hogedrukreiniging,
-              dakgootreiniging, schilderwerk en herstellingen — naast volledige
-              renovaties wanneer nodig. Geen verkooppraat, gewoon goed werk en
-              heldere afspraken.
+              dakgootreiniging, elektriciteit en herstellingen — naast
+              volledige renovaties wanneer nodig. Geen verkooppraat, gewoon
+              goed werk en heldere afspraken.
             </p>
+            <div class="about__signature">
+              <i data-lucide="badge-check" class="icon"></i>
+              <span><strong>Tibo Desaever</strong> · Zaakvoerder &amp; vakman</span>
+            </div>
           </div>
           <div class="about__media">
-            <img
-              src="img/about.svg"
-              alt="Vakman aan het werk"
-              loading="lazy"
-              width="800"
-              height="900"
-            />
+            <img src="img/about.svg" alt="Vakman aan het werk" loading="lazy" width="800" height="900" />
           </div>
         </div>
       </section>
@@ -546,32 +543,34 @@
       <section class="cta-band reveal" aria-labelledby="cta-title">
         <div class="container cta-band__inner">
           <div>
+            <span class="eyebrow eyebrow--on-dark">Klaar om te starten?</span>
             <h2 id="cta-title" class="cta-band__title">
-              Heb je renovatie- of herstellingswerken nodig?
+              Heb je werken nodig? We bezorgen een offerte binnen 48 uur.
             </h2>
             <p class="cta-band__lead">
-              We bezorgen je binnen 24–48 uur een eerste reactie.
+              Geen verkooppraat, gewoon een duidelijk antwoord.
             </p>
           </div>
-          <a href="#contact" class="btn btn-primary cta-band__btn"
-            >Vraag een offerte aan</a
-          >
+          <div class="cta-band__actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Vraag een offerte aan</a>
+            <a href="tel:+32469219574" class="cta-band__phone">
+              <i data-lucide="phone" class="icon"></i>
+              <span>Of bel +32 469 21 95 74</span>
+            </a>
+          </div>
         </div>
       </section>
 
       <!-- CONTACT -->
-      <section
-        id="contact"
-        class="section contact reveal"
-        aria-labelledby="contact-title"
-      >
+      <section id="contact" class="section contact reveal" aria-labelledby="contact-title">
         <div class="container contact__grid">
           <div>
-            <p class="eyebrow">Contact</p>
-            <h2 id="contact-title" class="section-title">Vraag een offerte aan</h2>
-            <p class="section-lead">
+            <span class="section-number">/07 — Contact</span>
+            <span class="eyebrow">Laat van je horen</span>
+            <h2 id="contact-title" class="display-2">Vraag je offerte aan.</h2>
+            <p class="section-head__lead" style="margin-top: 1rem">
               Vul het formulier in of bel ons rechtstreeks. We antwoorden
-              binnen 24–48 uur.
+              binnen 24–48 uur — meestal sneller.
             </p>
 
             <div class="contact__info">
@@ -590,10 +589,9 @@
                 <li>
                   <i data-lucide="map-pin" class="icon" aria-hidden="true"></i>
                   <span class="contact__label">Regio</span>
-                  <span>België</span>
+                  <span>Heel België</span>
                 </li>
               </ul>
-
               <p class="contact__response">
                 <i data-lucide="shield-check" class="icon" aria-hidden="true"></i>
                 <span>Snelle respons · binnen 24–48 uur</span>
@@ -602,70 +600,28 @@
           </div>
 
           <div class="contact__form-wrap">
-            <form
-              class="contact-form"
-              action="https://formsubmit.co/ajax/tibo@dgroup.be"
-              method="POST"
-              data-form
-              novalidate
-            >
-              <input
-                type="hidden"
-                name="_subject"
-                value="Nieuwe offerte-aanvraag · Desaever Projects"
-              />
+            <form class="contact-form" action="https://formsubmit.co/ajax/tibo@dgroup.be" method="POST" data-form novalidate>
+              <input type="hidden" name="_subject" value="Nieuwe offerte-aanvraag · Desaever Projects" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_language" value="nl" />
-              <input
-                type="text"
-                name="_honey"
-                tabindex="-1"
-                autocomplete="off"
-                class="contact-form__honeypot"
-                aria-hidden="true"
-              />
+              <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="contact-form__honeypot" aria-hidden="true" />
 
               <div class="contact-form__row">
                 <div class="field">
-                  <label for="cf-name"
-                    >Naam <span aria-hidden="true">*</span></label
-                  >
-                  <input
-                    id="cf-name"
-                    name="name"
-                    type="text"
-                    required
-                    autocomplete="name"
-                  />
+                  <label for="cf-name">Naam <span aria-hidden="true">*</span></label>
+                  <input id="cf-name" name="name" type="text" required autocomplete="name" />
                 </div>
                 <div class="field">
-                  <label for="cf-phone"
-                    >Telefoon <span aria-hidden="true">*</span></label
-                  >
-                  <input
-                    id="cf-phone"
-                    name="phone"
-                    type="tel"
-                    required
-                    autocomplete="tel"
-                    inputmode="tel"
-                  />
+                  <label for="cf-phone">Telefoon <span aria-hidden="true">*</span></label>
+                  <input id="cf-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" />
                 </div>
               </div>
 
               <div class="contact-form__row">
                 <div class="field">
-                  <label for="cf-email"
-                    >Email <span aria-hidden="true">*</span></label
-                  >
-                  <input
-                    id="cf-email"
-                    name="email"
-                    type="email"
-                    required
-                    autocomplete="email"
-                  />
+                  <label for="cf-email">Email <span aria-hidden="true">*</span></label>
+                  <input id="cf-email" name="email" type="email" required autocomplete="email" />
                 </div>
                 <div class="field">
                   <label for="cf-type">Type werk</label>
@@ -674,10 +630,8 @@
                     <option value="pressure">Hogedrukreiniging</option>
                     <option value="gutter">Dakgootreiniging</option>
                     <option value="handy">Algemene kluswerken</option>
-                    <option value="paint">Schilder- / afwerkingswerken</option>
-                    <option value="maintenance">
-                      Herstelling / onderhoud
-                    </option>
+                    <option value="electrical">Elektriciteitswerken</option>
+                    <option value="maintenance">Herstelling / onderhoud</option>
                     <option value="outdoor">Tuin- / buitenwerken</option>
                     <option value="renovation">Renovatie</option>
                     <option value="build">Klein bouwwerk</option>
@@ -687,48 +641,22 @@
               </div>
 
               <div class="field">
-                <label for="cf-message"
-                  >Bericht <span aria-hidden="true">*</span></label
-                >
-                <textarea
-                  id="cf-message"
-                  name="message"
-                  rows="5"
-                  required
-                  placeholder="Beschrijf kort je project of vraag"
-                ></textarea>
+                <label for="cf-message">Bericht <span aria-hidden="true">*</span></label>
+                <textarea id="cf-message" name="message" rows="5" required placeholder="Beschrijf kort je project of vraag"></textarea>
               </div>
 
-              <button
-                type="submit"
-                class="btn btn-primary contact-form__submit"
-                data-submit
-                data-sending="Bezig met verzenden…"
-              >
+              <button type="submit" class="btn btn-primary contact-form__submit" data-submit data-sending="Bezig met verzenden…">
                 <span data-submit-label>Offerte aanvragen</span>
+                <i data-lucide="arrow-right" class="icon"></i>
               </button>
 
-              <p
-                class="contact-form__error"
-                data-error
-                hidden
-                role="alert"
-              >
+              <p class="contact-form__error" data-error hidden role="alert">
                 Er ging iets mis. Probeer het opnieuw of bel ons rechtstreeks.
               </p>
 
-              <div
-                class="contact-form__success"
-                data-success
-                hidden
-                role="status"
-                aria-live="polite"
-              >
+              <div class="contact-form__success" data-success hidden role="status" aria-live="polite">
                 <h3>Bedankt!</h3>
-                <p>
-                  Je aanvraag is verstuurd. We nemen binnen 24–48 uur contact
-                  op.
-                </p>
+                <p>Je aanvraag is verstuurd. We nemen binnen 24–48 uur contact op.</p>
               </div>
             </form>
           </div>
@@ -737,43 +665,48 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container site-footer__grid">
-        <div class="site-footer__brand">
-          <a href="./" aria-label="Desaever Projects">
-            <img
-              src="img/logo/wordmark.svg"
-              alt="Desaever Projects"
-              class="site-footer__wordmark"
-            />
-          </a>
-          <p>Kluswerken · Onderhoud · Renovatie</p>
+      <div class="container">
+        <div class="site-footer__top">
+          <div class="site-footer__brand">
+            <a href="./" aria-label="Desaever Projects">
+              <img src="img/logo/wordmark.svg" alt="Desaever Projects" class="site-footer__wordmark" />
+            </a>
+            <p>
+              Belgisch klus-, onderhouds- en renovatiebedrijf voor woningen en
+              kleine bedrijven. Eén vakman, één duidelijke offerte.
+            </p>
+          </div>
+          <div class="site-footer__col">
+            <h3>Diensten</h3>
+            <ul>
+              <li><a href="#diensten">Hogedrukreiniging</a></li>
+              <li><a href="#diensten">Dakgootreiniging</a></li>
+              <li><a href="#diensten">Elektriciteitswerken</a></li>
+              <li><a href="#diensten">Algemene kluswerken</a></li>
+              <li><a href="#diensten">Herstellingen &amp; onderhoud</a></li>
+              <li><a href="#diensten">Renovaties</a></li>
+            </ul>
+          </div>
+          <div class="site-footer__col">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+32469219574">+32 469 21 95 74</a></li>
+              <li><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></li>
+              <li>Heel België</li>
+            </ul>
+          </div>
         </div>
-        <div class="site-footer__col">
-          <h3>Diensten</h3>
-          <ul>
-            <li><a href="#diensten">Hogedrukreiniging</a></li>
-            <li><a href="#diensten">Dakgootreiniging</a></li>
-            <li><a href="#diensten">Algemene kluswerken</a></li>
-            <li><a href="#diensten">Schilder- &amp; afwerkingswerken</a></li>
-            <li><a href="#diensten">Herstellingen &amp; onderhoud</a></li>
-            <li><a href="#diensten">Renovaties</a></li>
-          </ul>
+        <div class="site-footer__bar">
+          <span>© <span data-year>2026</span> Desaever Projects · Alle rechten voorbehouden.</span>
+          <span>Part of Desaever Group</span>
         </div>
-        <div class="site-footer__col">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="tel:+32469219574">+32 469 21 95 74</a></li>
-            <li><a href="mailto:tibo@dgroup.be">tibo@dgroup.be</a></li>
-            <li>België</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="container site-footer__bar">
-        <span>© <span data-year>2026</span> Desaever Projects · Alle rechten voorbehouden.</span>
-        <span>Part of Desaever Group</span>
       </div>
     </footer>
+
+    <!-- Floating call button (mobile) -->
+    <a href="tel:+32469219574" class="float-call" aria-label="Bel Desaever Projects">
+      <i data-lucide="phone" class="icon"></i>
+    </a>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script src="assets/js/main.js"></script>
