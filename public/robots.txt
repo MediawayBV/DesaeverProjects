@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mediawaybv.github.io/desaeverprojects/sitemap-index.xml

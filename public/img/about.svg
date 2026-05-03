@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="1000" fill="#ededed"/>
+  <g fill="#a0a0a0" font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+    <text x="400" y="490" font-size="28" font-weight="800">TODO: About photo</text>
+    <text x="400" y="528" font-size="14" font-weight="400">replace public/img/about.svg</text>
+  </g>
+</svg>

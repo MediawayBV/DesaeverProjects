@@ -1,0 +1,134 @@
+---
+import { Icon } from "astro-icon/components";
+import { getDict, type Locale } from "../i18n/t";
+import ContactForm from "./ContactForm.astro";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = getDict(locale);
+---
+
+<section id="contact" class="section contact reveal" aria-labelledby="contact-title">
+  <div class="container contact__grid">
+    <div class="contact__intro">
+      <p class="eyebrow">{t.contact.eyebrow}</p>
+      <h2 id="contact-title" class="section-title">{t.contact.title}</h2>
+      <p class="section-lead">{t.contact.lead}</p>
+
+      <div class="contact__info">
+        <h3 class="contact__info-title">{t.contact.info_title}</h3>
+        <ul class="contact__list">
+          <li>
+            <Icon name="lucide:phone" class="contact__icon" aria-hidden="true" />
+            <span class="contact__label">{t.contact.phone_label}</span>
+            <a href="tel:TODO">{t.contact.phone_value}</a>
+          </li>
+          <li>
+            <Icon name="lucide:mail" class="contact__icon" aria-hidden="true" />
+            <span class="contact__label">{t.contact.email_label}</span>
+            <a href="mailto:TODO">{t.contact.email_value}</a>
+          </li>
+          <li>
+            <Icon name="lucide:map-pin" class="contact__icon" aria-hidden="true" />
+            <span class="contact__label">{t.contact.region_label}</span>
+            <span>{t.contact.region_value}</span>
+          </li>
+        </ul>
+
+        <p class="contact__response">
+          <Icon name="lucide:shield-check" class="contact__icon" aria-hidden="true" />
+          <span>{t.contact.response_note}</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="contact__form-wrap">
+      <ContactForm locale={locale} />
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .contact__info {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+  .contact__info-title {
+    font-size: var(--fs-14);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 0 0 1rem;
+    color: var(--color-muted);
+  }
+  .contact__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+  .contact__list li {
+    display: grid;
+    grid-template-columns: 22px 80px 1fr;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: var(--fs-14);
+  }
+  .contact__list li :global(svg) {
+    width: 18px;
+    height: 18px;
+    color: var(--color-accent);
+  }
+  .contact__label {
+    color: var(--color-muted);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-12);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .contact__list a {
+    font-weight: var(--fw-semibold);
+  }
+  .contact__list a:hover {
+    color: var(--color-accent);
+  }
+  .contact__response {
+    margin-top: 1.5rem;
+    padding: 0.875rem 1rem;
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: var(--fs-14);
+    font-weight: var(--fw-semibold);
+  }
+  .contact__response :global(svg) {
+    width: 18px;
+    height: 18px;
+    color: var(--color-accent);
+  }
+
+  .contact__form-wrap {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  @media (min-width: 880px) {
+    .contact__grid {
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 3.5rem;
+    }
+  }
+</style>

@@ -1,0 +1,55 @@
+---
+import { getDict, type Locale } from "../i18n/t";
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = getDict(locale);
+---
+
+<section class="cta-band reveal" aria-labelledby="cta-title">
+  <div class="container cta-band__inner">
+    <div>
+      <h2 id="cta-title" class="cta-band__title">{t.ctaband.title}</h2>
+      <p class="cta-band__lead">{t.ctaband.lead}</p>
+    </div>
+    <a href="#contact" class="btn btn-primary cta-band__btn">{t.ctaband.button}</a>
+  </div>
+</section>
+
+<style>
+  .cta-band {
+    background: var(--color-dark);
+    color: var(--color-on-dark);
+    padding-block: clamp(3rem, 6vw, 4.5rem);
+  }
+  .cta-band__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .cta-band__title {
+    font-size: clamp(1.625rem, 3.2vw, 2.25rem);
+    margin: 0 0 0.5rem;
+    max-width: 26ch;
+  }
+  .cta-band__lead {
+    color: var(--color-on-dark-muted);
+    font-size: var(--fs-18);
+  }
+  .cta-band__btn {
+    padding: 1rem 1.75rem;
+    font-size: var(--fs-18);
+  }
+
+  @media (min-width: 880px) {
+    .cta-band__inner {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+  }
+</style>

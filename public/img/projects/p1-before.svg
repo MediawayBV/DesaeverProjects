@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="before" opacity="0"/>
+  <rect width="800" height="600" fill="#cfcfcf"/>
+  <g fill="#7a7a7a" font-family="Inter, system-ui, sans-serif" text-anchor="middle">
+    <text x="400" y="295" font-size="32" font-weight="800">P1 · before</text>
+    <text x="400" y="332" font-size="14" font-weight="400">TODO: replace placeholder</text>
+  </g>
+</svg>

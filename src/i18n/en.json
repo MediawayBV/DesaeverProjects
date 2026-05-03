@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Desaever Projects · Renovation, Handywork & Maintenance",
+    "description": "Belgian craftsmanship for renovation, handywork and maintenance of homes and small businesses. Request a no-obligation quote."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "process": "How we work",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu"
+  },
+  "lang": {
+    "switch_to": "Nederlands",
+    "label": "Language"
+  },
+  "hero": {
+    "eyebrow": "Renovation · Handywork · Maintenance",
+    "title": "Desaever Projects",
+    "lead": "Reliable craftsmanship for renovation and maintenance of homes and small businesses in Belgium.",
+    "cta_primary": "Request a quote",
+    "cta_secondary": "Our services"
+  },
+  "trust": {
+    "fast": "Fast response",
+    "craft": "Craftsmanship",
+    "clear": "Clear communication",
+    "audience": "Homes & small businesses"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What we do for you",
+    "lead": "From small repairs to full renovations — one point of contact for your home or business.",
+    "items": {
+      "handy": {
+        "title": "General handywork",
+        "desc": "Everything a tradesperson does, from assembly to finishing."
+      },
+      "renovation": {
+        "title": "Renovations",
+        "desc": "Full or partial renovation, clearly guided from A to Z."
+      },
+      "bathroom": {
+        "title": "Bathroom renovation",
+        "desc": "Plumbing, tiling and finishing — a new bathroom without the hassle."
+      },
+      "kitchen": {
+        "title": "Kitchen renovation",
+        "desc": "Installation, adjustments and all connections, expertly executed."
+      },
+      "maintenance": {
+        "title": "Repairs & maintenance",
+        "desc": "Quick interventions and routine maintenance for home and business."
+      },
+      "build": {
+        "title": "Small construction",
+        "desc": "Partition walls, terraces, storage and custom adjustments."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Recent work",
+    "title": "Before & after",
+    "lead": "A selection of recent projects. Drag to see the difference.",
+    "before": "Before",
+    "after": "After",
+    "slider_label": "Before/after slider",
+    "items": {
+      "p1": "Full bathroom renovation",
+      "p2": "Kitchen replacement and connections",
+      "p3": "Living room renovation",
+      "p4": "Facade repair and paintwork"
+    }
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "Our approach",
+    "lead": "Simple, transparent and without surprises.",
+    "steps": {
+      "s1": {
+        "title": "Get in touch",
+        "desc": "Tell us what you need via the form or by phone."
+      },
+      "s2": {
+        "title": "Follow-up & quote",
+        "desc": "We review the project together and send a clear quote."
+      },
+      "s3": {
+        "title": "Execution",
+        "desc": "We carry out the work expertly, with respect for your home."
+      },
+      "s4": {
+        "title": "Finishing",
+        "desc": "A clean handover and brief follow-up after the work."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A tradesperson you can trust",
+    "p1": "Desaever Projects is a Belgian renovation and handywork company focused on reliability, quality and clear communication.",
+    "p2": "We work for homeowners and small businesses on small repairs as well as full renovations. No sales talk — just good work and clear agreements.",
+    "image_alt": "Tradesperson at work"
+  },
+  "ctaband": {
+    "title": "Need renovation or repair work?",
+    "lead": "We get back to you within 24–48 hours.",
+    "button": "Request a quote"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Request a quote",
+    "lead": "Fill in the form or call us directly. We respond within 24–48 hours.",
+    "info_title": "Direct contact",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "region_label": "Region",
+    "phone_value": "TODO: +32 …",
+    "email_value": "TODO: info@desaeverprojects.be",
+    "region_value": "TODO: add region",
+    "response_note": "Fast response · within 24–48 hours",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "type": "Type of work",
+      "type_placeholder": "Choose an option",
+      "type_options": {
+        "handy": "General handywork",
+        "renovation": "Renovation",
+        "bathroom": "Bathroom renovation",
+        "kitchen": "Kitchen renovation",
+        "maintenance": "Repair / maintenance",
+        "build": "Small construction",
+        "other": "Other"
+      },
+      "message": "Message",
+      "message_placeholder": "Briefly describe your project or question",
+      "submit": "Request a quote",
+      "sending": "Sending…",
+      "success_title": "Thank you!",
+      "success_body": "Your request has been sent. We'll get back to you within 24–48 hours.",
+      "error": "Something went wrong. Please try again or call us directly.",
+      "required": "Required field"
+    }
+  },
+  "footer": {
+    "tagline": "Renovation · Handywork · Maintenance",
+    "services_title": "Services",
+    "contact_title": "Contact",
+    "group": "Part of Desaever Group",
+    "rights": "All rights reserved."
+  },
+  "skip": "Skip to content"
+}
