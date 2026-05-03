@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Desaever Projects · Renovatie, Kluswerken & Onderhoud",
+    "description": "Belgisch vakmanschap voor renovatie, kluswerken en onderhoud van woningen en kleine bedrijven. Vraag een vrijblijvende offerte aan."
+  },
+  "nav": {
+    "services": "Diensten",
+    "projects": "Werken",
+    "process": "Werkwijze",
+    "about": "Over ons",
+    "contact": "Contact",
+    "cta": "Offerte aanvragen",
+    "menu_open": "Menu openen",
+    "menu_close": "Menu sluiten"
+  },
+  "lang": {
+    "switch_to": "English",
+    "label": "Taal"
+  },
+  "hero": {
+    "eyebrow": "Renovatie · Kluswerken · Onderhoud",
+    "title": "Desaever Projects",
+    "lead": "Betrouwbaar vakmanschap voor renovatie en onderhoud van woningen en kleine bedrijven in België.",
+    "cta_primary": "Offerte aanvragen",
+    "cta_secondary": "Onze diensten"
+  },
+  "trust": {
+    "fast": "Snelle respons",
+    "craft": "Vakmanschap",
+    "clear": "Duidelijke communicatie",
+    "audience": "Particulieren & kleine bedrijven"
+  },
+  "services": {
+    "eyebrow": "Diensten",
+    "title": "Wat we voor je doen",
+    "lead": "Van kleine herstellingen tot volledige renovaties — één aanspreekpunt voor je woning of zaak.",
+    "items": {
+      "handy": {
+        "title": "Algemene kluswerken",
+        "desc": "Alles wat een vakman doet, van montage tot afwerking."
+      },
+      "renovation": {
+        "title": "Renovaties",
+        "desc": "Volledige of gedeeltelijke renovatie, helder begeleid van A tot Z."
+      },
+      "bathroom": {
+        "title": "Badkamerrenovatie",
+        "desc": "Sanitair, tegelwerk en afwerking — een nieuwe badkamer zonder zorgen."
+      },
+      "kitchen": {
+        "title": "Keukenrenovatie",
+        "desc": "Plaatsing, aanpassingen en alle verbindingen, vakkundig uitgevoerd."
+      },
+      "maintenance": {
+        "title": "Herstellingen & onderhoud",
+        "desc": "Snelle interventies en periodiek onderhoud voor woning en bedrijf."
+      },
+      "build": {
+        "title": "Kleine bouwwerken",
+        "desc": "Tussenmuren, terrassen, bergingen en aanpassingen op maat."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Recente werken",
+    "title": "Voor & na",
+    "lead": "Een greep uit recente projecten. Sleep om het verschil te zien.",
+    "before": "Voor",
+    "after": "Na",
+    "slider_label": "Voor/na schuifregelaar",
+    "items": {
+      "p1": "Volledige badkamerrenovatie",
+      "p2": "Keuken vervangen en aansluitingen",
+      "p3": "Renovatie woonkamer",
+      "p4": "Herstelling gevel en schilderwerk"
+    }
+  },
+  "process": {
+    "eyebrow": "Werkwijze",
+    "title": "Zo gaan we te werk",
+    "lead": "Eenvoudig, transparant en zonder verrassingen.",
+    "steps": {
+      "s1": {
+        "title": "Contact opnemen",
+        "desc": "Je vertelt wat je nodig hebt via het formulier of telefonisch."
+      },
+      "s2": {
+        "title": "Opvolging & inschatting",
+        "desc": "We bekijken het project samen en bezorgen een duidelijke offerte."
+      },
+      "s3": {
+        "title": "Uitvoering",
+        "desc": "We voeren de werken vakkundig uit, met respect voor je woning."
+      },
+      "s4": {
+        "title": "Afwerking",
+        "desc": "Een nette oplevering en korte opvolging na de werken."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Over ons",
+    "title": "Een vakman die je kunt vertrouwen",
+    "p1": "Desaever Projects is een Belgisch renovatie- en klusbedrijf met focus op betrouwbaarheid, kwaliteit en duidelijke communicatie.",
+    "p2": "We werken voor particulieren en kleine bedrijven aan zowel kleine herstellingen als volledige renovaties. Geen verkooppraat — gewoon goed werk en heldere afspraken.",
+    "image_alt": "Vakman aan het werk"
+  },
+  "ctaband": {
+    "title": "Heb je renovatie- of herstellingswerken nodig?",
+    "lead": "We bezorgen je binnen 24–48 uur een eerste reactie.",
+    "button": "Vraag een offerte aan"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Vraag een offerte aan",
+    "lead": "Vul het formulier in of bel ons rechtstreeks. We antwoorden binnen 24–48 uur.",
+    "info_title": "Direct contact",
+    "phone_label": "Telefoon",
+    "email_label": "Email",
+    "region_label": "Regio",
+    "phone_value": "TODO: +32 …",
+    "email_value": "TODO: info@desaeverprojects.be",
+    "region_value": "TODO: regio toevoegen",
+    "response_note": "Snelle respons · binnen 24–48 uur",
+    "form": {
+      "name": "Naam",
+      "phone": "Telefoon",
+      "email": "Email",
+      "type": "Type werk",
+      "type_placeholder": "Kies een optie",
+      "type_options": {
+        "handy": "Algemene kluswerken",
+        "renovation": "Renovatie",
+        "bathroom": "Badkamerrenovatie",
+        "kitchen": "Keukenrenovatie",
+        "maintenance": "Herstelling / onderhoud",
+        "build": "Klein bouwwerk",
+        "other": "Andere"
+      },
+      "message": "Bericht",
+      "message_placeholder": "Beschrijf kort je project of vraag",
+      "submit": "Offerte aanvragen",
+      "sending": "Bezig met verzenden…",
+      "success_title": "Bedankt!",
+      "success_body": "Je aanvraag is verstuurd. We nemen binnen 24–48 uur contact op.",
+      "error": "Er ging iets mis. Probeer het opnieuw of bel ons rechtstreeks.",
+      "required": "Vereist veld"
+    }
+  },
+  "footer": {
+    "tagline": "Renovatie · Kluswerken · Onderhoud",
+    "services_title": "Diensten",
+    "contact_title": "Contact",
+    "group": "Part of Desaever Group",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "skip": "Naar inhoud"
+}
